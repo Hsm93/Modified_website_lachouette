@@ -7,6 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
 a, button {
     transition: all .3s ease-in-out;
     outline: none!important;
@@ -125,6 +126,13 @@ a:hover {
     font-size: 16px;
 }
 
+@font-face {
+    font-family: et-line;
+    src: url(../fonts/et-line.eot);
+    src: url(../fonts/et-line.eot?#iefix) format('embedded-opentype'), url(../fonts/et-line.woff) format('woff'), url(../fonts/et-line.ttf) format('truetype'), url(../fonts/et-line.svg#et-line) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -526,12 +534,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #Ffffff!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #500200!important;
 }
 
 .btn-atomic-tangerine:hover {
