@@ -410,9 +410,24 @@ a[data-lightbox]:hover img {
 h1, h2, h3, h4, h5, h6, p, label, .btn, a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000!important;
 }
 
+.feedback, .feedback-user {
+    font-family: "helvetica";
+    text-align: center;
+}
+
+.feedback {
+    padding-top: 10rem;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.feedback-user {
+    font-size: 1em;
+    padding-bottom: 5rem;
+}
 .container {
     max-width: 1000px;
 }
